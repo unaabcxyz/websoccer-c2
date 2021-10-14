@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "ced51aef-0e09-4b29-9853-d3295a31a205"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "my-app:build:production"
+              "browserTarget": "soccer-webc2:build:production"
             },
             "development": {
-              "browserTarget": "my-app:build:development"
+              "browserTarget": "soccer-webc2:development"
             }
           },
           "defaultConfiguration": "development"
