@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { ScoringsComponent } from './scorings/scorings.component';
 import { StandingsComponent } from './standings/standings.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StandingsComponent } from './standings/standings.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
